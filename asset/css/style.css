@@ -22,6 +22,9 @@
 .dark02 {
   color: #474747;
 }
+.dark03 {
+  color: #757575;
+}
 
 /* primary button  */
 .btn-primary {
@@ -33,6 +36,8 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+/* header section area  */
 
 .header-section {
   max-width: 100%;
@@ -67,4 +72,32 @@
 }
 .nav-items li a {
   text-decoration: none;
+}
+
+/* banner section area  */
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 230px;
+}
+.banner-contain {
+  max-width: 685px;
+}
+.banner-section img {
+  max-width: 685px;
+}
+.banner-greetings {
+  font-size: 40px;
+  font-weight: bold;
+}
+.banner-title {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.banner-discription{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
