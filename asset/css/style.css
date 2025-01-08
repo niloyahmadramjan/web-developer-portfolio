@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 800 */
+
+.open-sans-regular {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.logo-color {
+    color: #FD6E0A;
+}
