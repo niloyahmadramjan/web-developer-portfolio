@@ -126,6 +126,7 @@
   background-color: white;
   max-width: 827px;
   max-height: 288px;
+  border: 1px solid black;
 }
 .about-me-title {
   font-size: 35px;
@@ -153,3 +154,51 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+/* what i do section  */
+.whatIdo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.whatIdo h2 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 167px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+.whatIdo p {
+  font-size: 18px;
+  font-weight: normal;
+  width: 909px;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.do-block {
+  padding: 30px;
+  box-shadow: 6px 0px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.do-title h2 {
+  margin: 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.do-title p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* skill block  */
+.skill-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 230px;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+/* resume section  */
+
